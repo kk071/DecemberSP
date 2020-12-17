@@ -1,4 +1,4 @@
-package rd.epam.com;
+﻿package rd.epam.com;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +13,11 @@ public class App {
         Student student = new Student("Андрей", "Юрьевич");
         student.setGroup(Group.FIRST);
         student.setSecondName("Иванов");
+
+        students.add(student);
+Student student = new Student("Максим", "Сергеевич");
+        student.setGroup(Group.FIRST);
+        student.setSecondName("Чумаков");
 
         students.add(student);
         students.forEach(System.out::println);
